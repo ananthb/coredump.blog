@@ -1,0 +1,8 @@
+name = "deploy-site"
+compatibility_date = "2025-07-31"
+
+[build]
+command = "hugo build --gc --minify"
+
+[assets]
+directory = "./public"
