@@ -37,19 +37,27 @@ jsonResumeRegistrySlug = "ananthb"
 # Requires enableGitInfo = true, and for your website to be public on GitHub.
 siteRepo = "ananthb/coredump.blog"  # Site GitHub repository
 
-# Social Tags
+# Socials
 [[params.social]]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/ananthb"
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com"
+name = "BlueSky"
+icon = "bluesky"
+url = "https://bsky.app/profile/calculon.tech"
+[[params.social]]
+name = "Mastodon"
+icon = "mastodon"
+url = "https://mastodon.social/@ananthbh"
 [[params.social]]
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/ananth-bh"
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/Bad_R_obot"
 
 [[menu.main]]
 name = "Resume"
