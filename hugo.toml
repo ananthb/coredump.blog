@@ -1,0 +1,62 @@
+baseURL = 'https://coredump.blog/'
+languageCode = 'en-in'
+title = 'Coredump'
+
+[module]
+[[module.imports]]
+path = "github.com/ananthb/jughead"
+
+enableGitInfo = true
+
+# Site parameters
+[params]
+# Add a logo to your site by placing an image in the assets directory
+# and setting the path here. Preferably a square png image.
+# logo = "logo.png"
+
+# Choose a colour scheme from the Pico CSS palate: https://picocss.com/docs/colors.
+colourScheme = "blue"
+
+# Enable a service worker for offline access.
+#
+# Set to true to cache pages as they are visited.
+serviceWorker = true
+# Set to "precache" to cache all pages on first load.
+# serviceWorker = "precache"
+
+subtitle = "Mostly programming sometimes philosophy."
+description = "Ananth's personal blog about programming."
+
+mainSections = ["blog", "links"]
+
+# Your JSON Resume Registry slug. This is the part of the URL after https://registry.jsonresume.org/.
+# Or create a resume.json file in the data directory.
+jsonResumeRegistrySlug = "ananthb"
+
+# Display a link to the commit that built this site in your footer.
+# Requires enableGitInfo = true, and for your website to be public on GitHub.
+siteRepo = "ananthb/coredump.blog"  # Site GitHub repository
+
+# Social Tags
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/ananthb"
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com"
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/ananth-bh"
+
+[[menu.main]]
+name = "Resume"
+url = "/resume"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2
