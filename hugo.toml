@@ -14,8 +14,10 @@ enableGitInfo = true
 # and setting the path here. Preferably a square png image.
 # logo = "logo.png"
 
-# Choose a colour scheme from the Pico CSS palate: https://picocss.com/docs/colors.
-colourScheme = "blue"
+# Choose a colour mode: light, dark, or auto.
+colourMode = "auto"
+# Choose a theme: default, or ink.
+theme = "ink"
 
 # Enable a service worker for offline access.
 #
