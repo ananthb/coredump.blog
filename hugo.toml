@@ -35,6 +35,7 @@ mainSections = ["blog", "links"]
 # Or create a resume.json file in the data directory.
 [params.jsonResume]
 slug = "ananthb"
+briefWork = true
 
 # Display a link to the commit that built this site in your footer.
 # Requires enableGitInfo = true, and for your website to be public on GitHub.

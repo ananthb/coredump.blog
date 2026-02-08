@@ -12,3 +12,7 @@ github.com/ananthb/jughead v1.11.16 h1:DKyRUkgbNiODfNjMUpzBB0msg2kM4HpD09YwHt8Wf
 github.com/ananthb/jughead v1.11.16/go.mod h1:iOCt4k9UlHa/o7WCh0JFO1/Sfwrf1UwyuG82GqEOphM=
 github.com/ananthb/jughead v1.12.0 h1:QpTpcABxIgKWXEgw6qoSsHN9xCVfgYBU9+Pt2Cc7dXc=
 github.com/ananthb/jughead v1.12.0/go.mod h1:iOCt4k9UlHa/o7WCh0JFO1/Sfwrf1UwyuG82GqEOphM=
+github.com/ananthb/jughead v1.13.0 h1:nyHOTATuNB6obe/BnR3R6Ok/yTLsuxHBZh4MF3Lfrqc=
+github.com/ananthb/jughead v1.13.0/go.mod h1:iOCt4k9UlHa/o7WCh0JFO1/Sfwrf1UwyuG82GqEOphM=
+github.com/ananthb/jughead v1.13.1 h1:a1DTzqHcIrB7Zx7QDvH3Nu/c/kzWyGK5/pzASB9EgkU=
+github.com/ananthb/jughead v1.13.1/go.mod h1:iOCt4k9UlHa/o7WCh0JFO1/Sfwrf1UwyuG82GqEOphM=
