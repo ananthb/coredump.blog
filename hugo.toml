@@ -10,14 +10,10 @@ enableGitInfo = true
 
 # Site parameters
 [params]
-# Add a logo to your site by placing an image in the assets directory
-# and setting the path here. Preferably a square png image.
-# logo = "logo.png"
-
-# Choose a colour mode: light, dark, or auto.
-colourMode = "auto"
-# Choose a theme: default, or ink.
+# Theme: "ink" (newspaper/OLED) or "earth" (rust/slate)
 theme = "ink"
+# Theme mode: "auto" (follows system), "light", or "dark"
+themeMode = "auto"
 
 # Enable a service worker for offline access.
 #
