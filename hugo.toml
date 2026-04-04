@@ -27,12 +27,6 @@ description = "Ananth's personal blog about programming."
 
 mainSections = ["blog", "links"]
 
-# Your JSON Resume Registry slug. This is the part of the URL after https://registry.jsonresume.org/.
-# Or create a resume.json file in the data directory.
-[params.jsonResume]
-slug = "ananthb"
-briefWork = true
-
 # Display a link to the commit that built this site in your footer.
 # Requires enableGitInfo = true, and for your website to be public on GitHub.
 siteRepo = "ananthb/coredump.blog"  # Site GitHub repository
@@ -60,11 +54,6 @@ icon = "twitter"
 url = "https://twitter.com/Bad_R_obot"
 
 [[menu.main]]
-name = "Resume"
-url = "/resume"
-weight = 1
-
-[[menu.main]]
 name = "Blog"
 url = "/blog"
-weight = 2
+weight = 1
