@@ -70,6 +70,6 @@ url = "https://calculon.tech"
 weight = 2
 
 [[menu.main]]
-name = "Build-a-NAS Form"
+name = "Build-A-NAS"
 url = "https://forms.gle/nUf6sHdFPuy3SUA86"
 weight = 3
