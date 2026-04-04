@@ -1,10 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="4" y="4" width="26" height="26" rx="3" fill="#9ca3af"/>
-  <rect x="34" y="4" width="26" height="26" rx="3" fill="#9ca3af"/>
-  <rect x="4" y="34" width="26" height="26" rx="3" fill="#9ca3af"/>
-  <rect x="34" y="34" width="26" height="26" rx="3" fill="#9ca3af"/>
-  <text x="17" y="23" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="18" fill="#000" opacity="0.4">C</text>
-  <text x="47" y="23" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="18" fill="#000" opacity="0.4">D</text>
-  <text x="17" y="53" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="18" fill="#000" opacity="0.4">0</text>
-  <text x="47" y="53" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="18" fill="#000" opacity="0.4">0</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -9 72 66">
+  <!-- IC chip body -->
+  <rect x="0" y="0" width="48" height="48" rx="4" fill="#1a1a1a" stroke="#444" stroke-width="1"/>
+  <!-- Pin-1 notch -->
+  <path d="M16,0 A8,8 0 0,0 32,0" stroke="#555" stroke-width="1" fill="none"/>
+  <!-- Chip legs — left -->
+  <g stroke="#555" stroke-width="1.2" stroke-linecap="round" fill="none">
+    <line x1="-7" y1="12" x2="0" y2="12"/>
+    <line x1="-7" y1="22" x2="0" y2="22"/>
+    <line x1="-7" y1="32" x2="0" y2="32"/>
+  </g>
+  <!-- Chip legs — right -->
+  <g stroke="#555" stroke-width="1.2" stroke-linecap="round" fill="none">
+    <line x1="48" y1="12" x2="55" y2="12"/>
+    <line x1="48" y1="22" x2="55" y2="22"/>
+    <line x1="48" y1="32" x2="55" y2="32"/>
+  </g>
+  <!-- Dead pixels -->
+  <rect x="2" y="3" width="4" height="4" rx="0.5" fill="#2a0000"/>
+  <rect x="7" y="3" width="2" height="2" fill="#2a0000"/>
+  <!-- Scan line -->
+  <line x1="0" y1="26" x2="48" y2="26" stroke="#ff3a20" stroke-width="0.7" opacity="0.35"/>
+  <!-- Text -->
+  <text x="4" y="22" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#e0e0e0">cd</text>
+  <text x="25" y="22" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#ff6040">__</text>
+  <text x="4" y="36" font-family="'JetBrains Mono','Courier New',monospace" font-size="6" fill="#888">SIGSEGV</text>
+  <text x="4" y="44" font-family="'JetBrains Mono','Courier New',monospace" font-size="6" fill="#888">0xdeadbeef</text>
 </svg>
