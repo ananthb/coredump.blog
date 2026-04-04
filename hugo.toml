@@ -61,3 +61,13 @@ url = "https://matrix.to/#/@stum:matrix.org"
 name = "Blog"
 url = "/blog"
 weight = 1
+
+[[menu.main]]
+name = "Calculon Tech"
+url = "https://calculon.tech"
+weight = 2
+
+[[menu.main]]
+name = "Build-a-NAS Form"
+url = "https://forms.gle/nUf6sHdFPuy3SUA86"
+weight = 3
