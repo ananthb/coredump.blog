@@ -10,6 +10,8 @@ enableGitInfo = true
 
 # Site parameters
 [params]
+logo = "logo.svg"
+
 # Theme: "ink" (newspaper/OLED) or "earth" (rust/slate)
 theme = "ink"
 # Theme mode: "auto" (follows system), "light", or "dark"
