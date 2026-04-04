@@ -1,5 +1,0 @@
----
-title: "Coredump"
----
-
-{{< header-logo >}}

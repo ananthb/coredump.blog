@@ -24,7 +24,9 @@ serviceWorker = true
 # Set to "precache" to cache all pages on first load.
 # serviceWorker = "precache"
 
-subtitle = "Mostly programming sometimes philosophy."
+headerLogo = "logo-large.svg"
+
+subtitle = "Ananth's tech blog."
 description = "Ananth's personal blog about programming."
 
 mainSections = ["blog", "links"]
