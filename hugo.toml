@@ -37,21 +37,25 @@ name = "GitHub"
 icon = "github"
 url = "https://github.com/ananthb"
 [[params.social]]
-name = "BlueSky"
-icon = "bluesky"
-url = "https://bsky.app/profile/calculon.tech"
-[[params.social]]
-name = "Mastodon"
-icon = "mastodon"
-url = "https://mastodon.social/@ananthbh"
+name = "X"
+icon = "x"
+url = "https://x.com/ananthbh"
 [[params.social]]
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/ananth-bh"
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/Bad_R_obot"
+name = "Telegram"
+icon = "telegram"
+url = "https://t.me/badrobut"
+[[params.social]]
+name = "Discord"
+icon = "discord"
+url = "https://discord.com/users/ananthbh"
+[[params.social]]
+name = "Matrix"
+icon = "matrix"
+url = "https://matrix.to/#/@stum:matrix.org"
 
 [[menu.main]]
 name = "Blog"
