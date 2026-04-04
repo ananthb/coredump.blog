@@ -11,6 +11,8 @@ enableGitInfo = true
 # Site parameters
 [params]
 logo = "logo.svg"
+headerLogo = "logo-large.svg"
+hideTitle = true
 
 # Theme: "ink" (newspaper/OLED) or "earth" (rust/slate)
 theme = "ink"
@@ -21,15 +23,11 @@ themeMode = "auto"
 #
 # Set to true to cache pages as they are visited.
 serviceWorker = true
-# Set to "precache" to cache all pages on first load.
-# serviceWorker = "precache"
-
-headerLogo = "logo-large.svg"
 
 subtitle = "Ananth's tech blog."
-description = "Ananth's personal blog about programming."
+description = "Ananth's tech blog."
 
-mainSections = ["blog", "links"]
+mainSections = ["articles", "links"]
 
 # Display a link to the commit that built this site in your footer.
 # Requires enableGitInfo = true, and for your website to be public on GitHub.
@@ -62,8 +60,8 @@ icon = "matrix"
 url = "https://matrix.to/#/@stum:matrix.org"
 
 [[menu.main]]
-name = "Blog"
-url = "/blog"
+name = "Articles"
+url = "/articles"
 weight = 1
 
 [[menu.main]]
