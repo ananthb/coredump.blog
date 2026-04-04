@@ -2,7 +2,7 @@ name = "coredump-blog"
 compatibility_date = "2025-07-31"
 
 [build]
-command = "hugo build --gc --minify"
+command = "hugo build --gc --minify ${HUGO_EXTRA_FLAGS:-}"
 
 [assets]
 directory = "./public"
