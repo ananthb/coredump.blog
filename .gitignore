@@ -11,3 +11,6 @@ devenv.local.nix
 # hugo
 .hugo_build.lock
 public
+
+# wrangler
+.wrangler
