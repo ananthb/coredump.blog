@@ -2,4 +2,4 @@ module github.com/ananthb/coredump.blog
 
 go 1.25.0
 
-require github.com/ananthb/jughead v1.16.1 // indirect
+require github.com/ananthb/jughead v1.17.0 // indirect
