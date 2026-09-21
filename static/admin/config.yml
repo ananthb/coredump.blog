@@ -1,0 +1,61 @@
+# Sveltia CMS. Served at https://coredump.blog/admin/, signs in through
+# calculon.tech, the forge (which signs in through Vault), and commits to main.
+backend:
+  name: gitea
+  repo: ananthb/coredump.blog
+  branch: main
+  base_url: https://calculon.tech
+  api_root: https://calculon.tech/api/v1
+  # Client id of the public OAuth2 app declared in calculon-tech/platform,
+  # tf/forgejo/sites.tf (output sveltia_app_ids).
+  app_id: 15e486ec-b95f-466b-9a77-1b82e44318dc
+  # Vault is the only door: no personal-access-token sign-in.
+  auth_methods: [oauth]
+
+site_url: https://coredump.blog
+display_url: https://coredump.blog
+
+# Hugo page resources: the theme reads images from assets/ and front matter
+# refers to them without a leading slash.
+media_folder: assets/images
+public_folder: images
+
+# Photos are resized on the way in, so phone originals never reach the repo.
+media_libraries:
+  default:
+    config:
+      max_file_size: 20000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1600
+          height: 1600
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: content/articles
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: yaml-frontmatter
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    summary: "{{title}} — {{date | date('yyyy-MM-dd')}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime, format: yyyy-MM-dd, date_format: yyyy-MM-dd, time_format: false }
+      # Free-form on purpose: jughead builds its taxonomy pages from whatever
+      # is used, and `featured` on a category is what promotes a post.
+      - { name: categories, label: Categories, widget: list, required: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: draft, label: Draft, widget: boolean, required: false, default: false }
+      - { name: body, label: Body, widget: markdown }
